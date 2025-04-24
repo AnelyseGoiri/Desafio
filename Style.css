@@ -11,7 +11,7 @@ body {
   padding-top: 40px;
 }
 
-/* Topo da caixa com ícones */
+/* Barra preta no topo da caixa */
 .top-bar {
   width: 550px;
   height: 30px;
@@ -30,14 +30,15 @@ body {
   gap: 6px;
 }
 
+/* Três pontos com cor verde água */
 .circle {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #00e0b8; /* verde água */
+  background-color: #00e0b8;
 }
 
-/* Ícone de menu no canto direito */
+/* Menu (três linhas horizontais) no canto direito */
 .menu-icon {
   display: flex;
   flex-direction: column;
@@ -54,48 +55,7 @@ body {
 /* Caixa principal */
 .caixa {
   width: 550px;
-  border: 2px solid orange;
-  position: relative;
-  border-top: none;
-  background-color: white;
-}
+  border:
 
-/* Cabeçalho */
-.header {
-  background-color: rgb(102, 58, 87);
-  padding: 15px 10px;
-  text-align: center;
-}
-
-h1 {
-  color: white;
-  font-size: 26px;
-  margin: 0;
-}
-
-/* Conteúdo */
-.conteudo {
-  padding: 20px;
-  background-color: white;
-}
-
-h2 {
-  font-size: 18px;
-  color: darkorange;
-  margin-top: 0;
-  text-align: left;
-}
-
-p {
-  font-size: 14px;
-  color: black;
-  text-align: justify;
-  text-indent: 50px;
-  margin-bottom: 15px;
-}
-
-.fonte {
-  text-indent: 0;
-}
 
 
