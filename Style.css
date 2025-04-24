@@ -1,23 +1,23 @@
 body {
-  background-color: #ffffff;
+  background-color: white;
+  margin: 0;
+  padding: 30px;
   font-family: Arial, sans-serif;
-  margin: 20px;
 }
 
-/* Caixa com fundo roxo */
-.caixa-titulo {
+/* Caixa superior do título */
+.caixa {
   width: 550px;
   height: 70px;
   background-color: rgb(102, 58, 87);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
   position: relative;
   top: 0px;
   left: 0px;
-  border: 0px solid;
-  padding: 0;
+  border: 0px;
+  margin: 0 auto 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Título principal (h1) */
@@ -33,7 +33,8 @@ body {
   font-size: 18px;
   color: #A0522D; /* Laranja escuro */
   text-align: left;
-  margin: 10px 0;
+  margin: 0 auto;
+  width: 550px;
 }
 
 /* Parágrafos */
@@ -42,13 +43,16 @@ body {
   color: black;
   text-align: justify;
   text-indent: 50px;
-  margin: 10px 0;
+  width: 550px;
+  margin: 10px auto;
 }
 
 /* Fonte */
 .fonte {
   font-size: 12px;
   font-style: italic;
-  margin-top: 20px;
+  width: 550px;
+  margin: 15px auto 0 auto;
+  text-align: left;
   color: #333;
 }
