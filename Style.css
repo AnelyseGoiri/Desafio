@@ -1,0 +1,54 @@
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Caixa com fundo roxo */
+.caixa-titulo {
+  width: 550px;
+  height: 70px;
+  background-color: rgb(102, 58, 87);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 0px solid;
+  padding: 0;
+}
+
+/* Título principal (h1) */
+.titulo-principal {
+  font-size: 26px;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+/* Título secundário (h2) */
+.titulo-secundario {
+  font-size: 18px;
+  color: #A0522D; /* Laranja escuro */
+  text-align: left;
+  margin: 10px 0;
+}
+
+/* Parágrafos */
+.paragrafo {
+  font-size: 14px;
+  color: black;
+  text-align: justify;
+  text-indent: 50px;
+  margin: 10px 0;
+}
+
+/* Fonte */
+.fonte {
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 20px;
+  color: #333;
+}
