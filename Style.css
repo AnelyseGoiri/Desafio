@@ -1,9 +1,8 @@
-/* Fundo geral da página */
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #002b36; /* azul escuro */
+  background-color: #002b36;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,35 +11,44 @@ body {
   padding-top: 40px;
 }
 
-/* Barra superior preta com círculos */
+/* Topo da caixa com ícones */
 .top-bar {
   width: 550px;
   height: 30px;
   background-color: black;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding-left: 10px;
+  padding: 0 10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  box-sizing: border-box;
+}
+
+.left-icons {
+  display: flex;
+  gap: 6px;
 }
 
 .circle {
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
-  margin-right: 6px;
+  background-color: #00e0b8; /* verde água */
 }
 
-.green {
-  background-color: #33cc33;
+/* Ícone de menu no canto direito */
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 16px;
 }
 
-.yellow {
-  background-color: #ffcc00;
-}
-
-.red {
-  background-color: #ff3333;
+.menu-icon .bar {
+  width: 18px;
+  height: 2px;
+  background-color: white;
 }
 
 /* Caixa principal */
@@ -48,12 +56,11 @@ body {
   width: 550px;
   border: 2px solid orange;
   position: relative;
-  box-sizing: border-box;
   border-top: none;
   background-color: white;
 }
 
-/* Cabeçalho roxo com título branco */
+/* Cabeçalho */
 .header {
   background-color: rgb(102, 58, 87);
   padding: 15px 10px;
@@ -66,7 +73,7 @@ h1 {
   margin: 0;
 }
 
-/* Conteúdo dentro da caixa */
+/* Conteúdo */
 .conteudo {
   padding: 20px;
   background-color: white;
