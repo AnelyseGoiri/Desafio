@@ -3,20 +3,17 @@ body {
   background-color: #f9f9f9;
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin: 0;
+  padding: 40px 0;
 }
 
 .caixa {
   width: 550px;
   position: relative;
-  padding: 1px;
-  background-color: rgb(102, 58, 87);
+  padding: 0;
+  background-color: rgb(102, 58, 87); /* fundo roxo */
   border: 0;
-}
-
-.conteudo {
-  background-color: white;
-  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -26,6 +23,11 @@ h1 {
   text-align: center;
   margin: 0;
   padding: 20px 0;
+}
+
+.conteudo {
+  background-color: white;
+  padding: 20px;
 }
 
 h2 {
@@ -42,6 +44,7 @@ p {
   color: black;
   text-align: justify;
   text-indent: 50px;
+  margin-bottom: 15px;
 }
 
 .fonte {
@@ -49,4 +52,5 @@ p {
   color: black;
   text-align: left;
   margin-top: 10px;
+  text-indent: 0;
 }
