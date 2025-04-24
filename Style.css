@@ -1,67 +1,52 @@
-/* Centraliza todo o conteúdo na tela */
 body {
-  background-color: #ffffff;
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  height: 100vh;
+  background-color: #f9f9f9;
   display: flex;
-  align-items: center;
   justify-content: center;
+  margin-top: 50px;
 }
 
-/* Container da página */
-.container {
-  background-color: #fff;
-  width: 600px;
-  border: 2px solid #cccccc;
-  border-radius: 10px;
-  padding: 20px 30px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Título principal */
-.caixa-titulo {
-  width: 100%;
-  height: 70px;
+.caixa {
+  width: 550px;
+  position: relative;
+  padding: 1px;
   background-color: rgb(102, 58, 87);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 5px;
-  margin-bottom: 15px;
+  border: 0;
 }
 
-.titulo-principal {
+.conteudo {
+  background-color: white;
+  padding: 20px;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
   font-size: 26px;
   color: white;
-  margin: 0;
   text-align: center;
+  margin: 0;
+  padding: 20px 0;
 }
 
-/* Título secundário */
-.titulo-secundario {
+h2 {
+  font-family: Arial, sans-serif;
   font-size: 18px;
-  color: #A0522D;
-  margin-top: 0;
-  margin-bottom: 15px;
+  color: darkorange;
   text-align: left;
+  margin-top: 0;
 }
 
-/* Parágrafos */
-.paragrafo {
+p {
+  font-family: Arial, sans-serif;
   font-size: 14px;
   color: black;
   text-align: justify;
   text-indent: 50px;
-  margin-bottom: 10px;
 }
 
-/* Fonte */
 .fonte {
-  font-size: 12px;
-  font-style: italic;
-  color: #333;
+  font-size: 14px;
+  color: black;
   text-align: left;
-  margin-top: 15px;
+  margin-top: 10px;
 }
